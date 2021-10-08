@@ -1,0 +1,144 @@
+:root {
+  --background-white: #ffffff;
+  --color-blue: #2196f3;
+  --color-black: #212121;
+  --color-gray: #757575;
+  --background-black: #2f303a;
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  background-color: var(--background-white);
+}
+
+.logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  color: var(--color-blue);
+}
+.logo div {
+  color: #000000;
+}
+
+.nav-items li a {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  color: var(--color-black);
+}
+.nav-items li a:hover,
+.nav-items li a:focus {
+  color: var(--color-blue);
+}
+
+.adress .adress-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14;
+  color: var(--color-gray);
+}
+.adress .adress-link:hover,
+.adress .adress-link:focus {
+  color: var(--color-blue);
+}
+
+.hero-section {
+  background-color: var(--background-black);
+}
+.hero-section h1 {
+  font-weight: 900;
+  font-size: 44px;
+  color: #ffffff;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+.order-button {
+  background-color: var(--color-blue);
+  color: #ffffff;
+  line-height: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+.order-button:hover {
+  background-color: #188ce8;
+}
+
+.qualities-section h3 {
+  color: var(--color-black);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.qualities-section p {
+  color: var(--color-gray);
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.section-header {
+  color: var(--color-black);
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.team-section {
+  background-color: #f5f4fa;
+}
+
+.team-section-items h3 {
+  color: var(--color-black);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.team-section-items p {
+  color: var(--color-gray);
+  font-size: 16px;
+  line-height: 19px;
+}
+
+footer {
+  background-color: var(--background-black);
+}
+
+.location-adress {
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  font-style: normal;
+}
+
+/* portfolio styles */
+
+.potfolio-button {
+  background-color: #f5f4fa;
+  color: var(--color-black);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  cursor: pointer;
+}
+
+.potfolio-button:hover {
+  background-color: var(--color-blue);
+  color: #ffffff;
+}
+
+.portfolio-content h4 {
+  color: var(--color-black);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.portfolio-content p {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-gray);
+}
