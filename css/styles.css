@@ -57,8 +57,9 @@ footer .logo span {
 
 footer .adress .adress-link {
   font-style: normal;
-  font-weight: 500;
+  font-weight: normal;
   font-size: 14px;
+  line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
 }
 
